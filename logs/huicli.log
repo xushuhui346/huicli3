@@ -1,0 +1,70 @@
+[2018-03-28T23:07:40.817] [ERROR] cheese - 页面丢了
+[2018-03-28T23:07:41.971] [ERROR] cheese - 页面丢了
+[2018-03-28T23:07:41.978] [ERROR] cheese - 页面丢了
+[2018-03-28T23:07:57.395] [ERROR] cheese - 页面丢了
+[2018-03-29T11:48:02.318] [ERROR] cheese - 页面丢了
+[2018-03-29T11:48:03.077] [ERROR] cheese - 页面丢了
+[2018-03-29T11:48:05.102] [ERROR] cheese - 页面丢了
+[2018-03-29T11:58:48.929] [ERROR] cheese - 页面丢了
+[2018-03-29T14:01:08.670] [ERROR] cheese - 页面丢了
+[2018-03-29T14:01:29.354] [ERROR] cheese - 页面丢了
+[2018-03-29T14:42:28.646] [ERROR] cheese - 页面丢了
+[2018-03-29T14:42:29.353] [ERROR] cheese - 页面丢了
+[2018-03-29T14:42:33.396] [ERROR] cheese - 页面丢了
+[2018-03-29T14:50:54.469] [ERROR] cheese - 页面丢了
+[2018-03-29T15:28:58.118] [ERROR] cheese - Error: 500错误
+    at Promise (/home/hui/文档/huicli2/build/models/IndexModel.js:18:13)
+    at new Promise (<anonymous>)
+    at IndexModel.getData (/home/hui/文档/huicli2/build/models/IndexModel.js:14:12)
+    at /home/hui/文档/huicli2/build/controllers/indexcontroller.js:17:42
+    at dispatch (/home/hui/文档/huicli2/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hui/文档/huicli2/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hui/文档/huicli2/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hui/文档/huicli2/node_modules/koa-compose/index.js:42:32)
+    at next (/home/hui/文档/huicli2/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/hui/文档/huicli2/build/middlewares/errorHandler.js:19:13)
+[2018-03-29T16:33:29.128] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T16:40:38.419] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T16:42:06.868] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T16:42:09.860] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T16:48:03.678] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T16:51:55.139] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T16:51:57.783] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hui/文档/huicli2/build/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hui/文档/huicli2/build/views/index.html' }
+[2018-03-29T17:33:35.342] [ERROR] cheese - 页面丢了
+[2018-03-29T17:33:48.593] [ERROR] cheese - 页面丢了
+[2018-03-29T17:34:25.114] [ERROR] cheese - 页面丢了
+[2018-03-30T16:31:16.561] [ERROR] cheese - 页面丢了
+[2018-03-30T23:38:20.849] [ERROR] cheese - 页面丢了
+[2018-03-30T23:38:42.690] [ERROR] cheese - 页面丢了
+[2018-03-30T23:41:53.404] [ERROR] cheese - 页面丢了
+[2018-12-17T17:19:20.173] [ERROR] cheese - 页面丢了
+[2018-12-17T17:19:35.462] [ERROR] cheese - 页面丢了
+[2018-12-17T17:24:21.846] [ERROR] cheese - 页面丢了
