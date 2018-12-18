@@ -12,7 +12,10 @@ gulp.task('builddev', () => {
             .pipe(babel({
                 //不让外部的.babelrc影响内部
                 babelrc: false,
-                "plugins": ["transform-es2015-modules-commonjs"]
+                "plugins": [
+                    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+                    "transform-es2015-modules-commonjs"
+            ]
             }))
             .pipe(gulp.dest('build'))
     })
@@ -25,7 +28,10 @@ gulp.task('buildprod', () => {
             //不让外部的.babelrc影响内部
             babelrc: false,
             ignore: ["./src/nodeuii/config/index.js"],
-            "plugins": ["transform-es2015-modules-commonjs"]
+            "plugins": [
+                ["@babel/plugin-proposal-decorators", { "legacy": true }],
+                "transform-es2015-modules-commonjs"
+            ]
         }))
         .pipe(gulp.dest('build'))
 });

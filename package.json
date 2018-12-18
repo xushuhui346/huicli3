@@ -15,6 +15,8 @@
   "author": "xushuhui",
   "license": "ISC",
   "dependencies": {
+    "awilix": "^4.0.1",
+    "awilix-koa": "^3.0.0",
     "co": "^4.6.0",
     "cross-env": "^5.1.4",
     "koa": "^2.5.0",

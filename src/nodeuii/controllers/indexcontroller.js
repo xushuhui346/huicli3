@@ -1,5 +1,7 @@
-import IndexModel from "../models/IndexModel";
-const indexController = {
+class IndexController  {
+    constructor(){
+        
+    }
     indexAction() {
         return async (ctx, next) => {
             const indexModelIns = new IndexModel();
@@ -7,7 +9,7 @@ const indexController = {
             //把result结果直接打印到页面上
             ctx.body = await ctx.render('index', { data: result });
         }
-    },
+    }
     testAction() {
         return (ctx, next) => {
             ctx.body = {
@@ -16,4 +18,4 @@ const indexController = {
         }
     }
 }
-export default indexController;
+export default IndexController;

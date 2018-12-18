@@ -11,7 +11,7 @@ import { resolve } from "url";
  * IndexModel类，生成一段异步的数据
  * @class
  */
-export default class IndexModel {
+export default class UserService {
     /**
      * @constructor
      * @param{string} app koa2的上下文
@@ -24,10 +24,10 @@ export default class IndexModel {
      * return new Promise
      * getData
      */
-    getData() {
+    getData(id) {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                resolve("hello indexAction")
+                resolve(`hello UserAction 【${id}】`)
             }, 1000);
             // throw new Error("500错误");
             //reject("错误")
